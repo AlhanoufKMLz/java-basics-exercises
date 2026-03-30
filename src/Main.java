@@ -20,7 +20,6 @@ public class Main {
 
         System.out.printf("BMI = %.2f \n" , (weight/(height*height)));
 
-
         /*
         2. Write a program that takes the obtained marks and total marks as input and
         calculates the percentage, then prints it.
