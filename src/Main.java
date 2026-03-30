@@ -119,7 +119,7 @@ public class Main {
         System.out.print("Please enter the replacement word: ");
         String replacementWord = input.nextLine();
 
-        String newSentence = sentence3.replace(wordToReplace, replacementWord);
+        String newSentence = sentence3.replaceAll("\\b" + wordToReplace + "\\b", replacementWord);
 
         System.out.println("New sentence: " + newSentence);
 
